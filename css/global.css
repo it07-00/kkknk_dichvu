@@ -1,0 +1,44 @@
+.grecaptcha-badge {
+    visibility: hidden !important;
+}
+
+#cancel_coupon {
+    cursor: pointer;
+}
+
+/* Fix Select2 Dropdown in Modal - Ensure proper z-index and visibility */
+.select2-container {
+    z-index: 9999 !important;
+}
+
+.select2-dropdown {
+    z-index: 10000 !important;
+}
+
+.select2-container--open {
+    z-index: 10001 !important;
+}
+
+/* Ensure Select2 dropdown appears above Bootstrap modal backdrop */
+.modal-backdrop {
+    z-index: 1040 !important;
+}
+
+.modal {
+    z-index: 1050 !important;
+}
+
+.select2-container--open .select2-dropdown {
+    z-index: 10000 !important;
+}
+
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hidden-md {
+        display: none;
+    }
+}

@@ -1,0 +1,835 @@
+.modal-regis .modal-dialog {
+    max-width: 690px;
+}
+
+.modal-auth #authTabs {
+    border: none;
+}
+
+.modal-auth {
+    max-width: 690px;
+}
+
+.modal-auth .modal-body {
+    padding: 15px !important;
+}
+
+.modal-auth .form-login {
+    border-radius: 28px;
+    border: 2px solid var(--gradient-2, #ff5a07);
+    background: #fff;
+    box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+}
+
+.form-wrap {
+    position: relative;
+}
+
+.modal-auth .form-wrap {
+    position: relative;
+}
+
+.modal-auth .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+}
+
+.modal-auth .modal-content {
+    border-radius: 25px;
+    overflow: hidden;
+    border: none;
+}
+
+.modal-auth .modal-header {
+    background: #105ce4 !important;
+    color: #fbed0b;
+    border-bottom: none;
+    padding: 1.25rem 1.5rem 0.5rem;
+    position: relative;
+    text-align: center;
+}
+
+.modal-auth .modal-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.modal-auth .close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 21px;
+    padding: 0;
+}
+
+.modal-auth .modal-header p {
+    color: white;
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+}
+
+.modal-auth .google-btn {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #222;
+    border-radius: 10px;
+    border: 1px solid #ffe6e8;
+    background: linear-gradient(180deg, #fff 0%, #ffeff0 100%);
+}
+
+.modal-auth .google-logo {
+    margin-right: 0.5rem;
+}
+
+.modal-auth .tabs-container {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    border-radius: 25px 25px 0 0;
+}
+
+.modal-auth .tab-switch-auth span {
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+.modal-auth .tab-switch-auth .active span {
+    background: linear-gradient(270deg, #eb2805 0%, #fbc30b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none !important;
+}
+
+.modal-auth .tab-switch-auth .tab.tab-active {
+    background: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #fff;
+}
+
+.modal-auth .tab-switch-auth .tab img {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+    height: 100%;
+    opacity: 1;
+    transition: opacity 0.3s;
+}
+
+.modal-auth .tab-switch-auth .active img {
+    opacity: 0;
+}
+
+.modal-auth .tab {
+    flex: 1;
+    text-align: center;
+    height: 60px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    font-size: 1.1rem;
+}
+
+.modal-auth .tab-active {
+    color: #f33;
+}
+
+.modal-auth .tab-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    z-index: 0;
+    transition: transform 0.3s ease;
+}
+
+.modal-auth .tab-content {
+    border: 1px solid #ffe0dc;
+    border-top: none;
+    border-radius: 0 0 25px 25px;
+    padding: 20px 24px;
+    background-color: white;
+}
+
+.form-label {
+    margin-bottom: 0.25rem;
+    font-size: 16px;
+    position: absolute;
+    background: #fff;
+    top: -12px;
+    z-index: 10;
+    left: 14px;
+    padding: 0 3px;
+    color: #333;
+}
+
+.modal-auth .form-label {
+    margin-bottom: 0.25rem;
+    font-size: 16px;
+    position: absolute;
+    background: #fff;
+    top: -12px;
+    z-index: 10;
+    left: 14px;
+    padding: 0 3px;
+    color: #333;
+}
+
+.modal-auth .form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #dadada;
+    height: 52px;
+}
+
+.modal-auth .form-text {
+    color: #dc3f2e;
+    font-weight: 500;
+}
+
+.modal-auth .red-text {
+    color: #f33;
+    font-weight: 500;
+}
+
+.password-field {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.modal-auth .signup-btn {
+    background: linear-gradient(90deg, #ffb700 0%, #f33 100%);
+    border-radius: 15px;
+    margin-top: 1.5rem;
+    width: 100%;
+    border-radius: 10px;
+    background: var(
+        --gradient-2,
+        linear-gradient(270deg, #eb2805 0%, #fbc30b 100%)
+    );
+    border: none;
+    outline: none;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-auth .free-badge {
+    position: relative;
+    width: 60px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-auth .free-circle {
+    width: 50px;
+    height: 50px;
+    background-color: #f33;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(-15deg);
+}
+
+.modal-auth .free-circle span {
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.modal-auth .btn-text {
+    text-align: left;
+    padding-left: 0.5rem;
+    font-size: 19px !important;
+}
+
+.modal-auth .btn-title {
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.modal-auth .btn-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+.modal-auth .nav-tabs .nav-link {
+    width: 100%;
+    border: none;
+    background: none;
+    padding: 0;
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.modal-regis .img-bank {
+    position: absolute;
+    width: calc(100% - 40px);
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
+}
+
+.modal-regis .border-bank {
+    aspect-ratio: 1;
+    width: 100%;
+}
+
+.modal-regis .body-method-option {
+    background: #f7f7f7;
+    padding: 0 10px;
+}
+
+.modal-regis #btn-checkout-regis {
+    border-radius: 10px;
+    background: var(
+        --gradient-2,
+        linear-gradient(270deg, #eb2805 0%, #fbc30b 100%)
+    );
+    border: none;
+    display: block;
+    width: 100%;
+    height: 56px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+}
+
+.modal-regis .phone-group {
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+
+.modal-regis .phone-group input {
+    border: none;
+}
+
+.modal-regis .phone-group button {
+    border: none;
+    border-right: 1px solid #dadada;
+    border-radius: 0;
+    display: flex;
+    width: 110px;
+    font-size: 16px;
+    align-items: center;
+    gap: 6px;
+    justify-content: center;
+}
+
+.modal-regis input#couponInput {
+    color: #dc3f2e;
+}
+
+.modal-regis .step.active .step-label,
+.modal-regis .step.completed .step-label {
+    font-weight: bold;
+    color: #105ce4;
+}
+
+.modal-regis .step-label {
+    color: #666;
+}
+
+.modal-regis .payment-header-t .input-group {
+    gap: 8px;
+    display: flex;
+}
+
+.modal-regis button#applyCoupon {
+    border-radius: 5px;
+    background: #fa8128;
+    width: 110px;
+    font-size: 16px;
+}
+
+.modal-regis .payment-header-t {
+    padding: 0 20px;
+    border-radius: 20px 20px 0px 0px;
+    background: linear-gradient(180deg, #fff 0%, #fff4e9 100%);
+}
+
+.modal-regis .payment-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal-regis .progress-steps {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    position: relative;
+}
+
+.modal-regis .progress-line {
+    position: absolute;
+    top: 34px;
+    left: 30px;
+    right: 100px;
+    height: 1px;
+    background-color: #fa8128;
+    z-index: 0;
+    width: calc(100% - 60px);
+}
+
+.modal-regis .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    /* color: #105CE4;
+                   */
+}
+
+.modal-regis .step-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    background-color: white;
+    border: 1px solid #fa8128;
+}
+
+.modal-regis .step.active .step-circle {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    color: white;
+}
+
+.modal-regis .step.completed .step-circle {
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+    color: white;
+}
+
+.modal-regis .payment-header {
+    margin-bottom: 10px;
+}
+
+.modal-regis .payment-body {
+    padding: 20px 40px;
+}
+
+.modal-regis .price-info {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 5px;
+                   */
+}
+
+.modal-regis .total-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin-top: 10px;
+    border-top: 1px dashed #e0e0e0;
+}
+
+.modal-regis .price {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.modal-regis .payment-methods-container {
+    background-color: white;
+    padding: 20px 15px;
+    border-radius: 15px;
+    border: 1px solid #ffd8a8;
+}
+
+.modal-regis .method-option {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.modal-regis .method-title {
+    /* font-weight: bold;
+                   */
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.modal-regis .qr-container {
+    position: relative;
+}
+
+.modal-regis .bank-info {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.modal-regis .bank-info-row {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+    padding: 8px 0;
+    color: #333;
+}
+
+.modal-regis .bank-info-label {
+    color: #333;
+}
+
+.modal-regis .bank-info-value {
+    font-weight: 600;
+    color: #333;
+}
+
+.modal-regis .warning-box {
+    background-color: #fff9f0;
+    border: 1px dashed #ffca80;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px dashed var(--Primary-Color, #fa8128);
+    background: #fff9ec;
+    font-size: 12px;
+    color: #333;
+}
+
+.modal-regis .warning-icon {
+    color: #ff8c00;
+    margin-right: 5px;
+}
+
+.modal-regis .download-btn {
+    background-color: #105ce4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+.modal-regis .timer-container {
+    background-color: #fff5eb;
+    border-radius: 10px;
+    padding: 10px 15px;
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #fff0f0 0%, #fed 100%);
+    font-size: 16px;
+    color: #333;
+}
+
+.modal-regis .timer {
+    color: #105ce4;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.modal-regis .status-container {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+}
+
+.modal-regis .status-container .loading-icon {
+    color: #fa8128;
+}
+
+.modal-regis .loading-icon {
+    display: inline-block;
+    margin-left: 5px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.modal-regis .close-btn {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    background: #fff;
+    /* padding: 5px; */
+    /* border: 1px solid #DC3F2E; */
+    border-radius: 50%;
+    color: #dc3f2e !important;
+    font-weight: normal !important;
+    width: 30px;
+    z-index: 99999;
+    height: 30px;
+}
+
+.modal-regis .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal-regis .nav-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-regis .prev-btn {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    color: #666;
+}
+
+.modal-regis .next-btn {
+    background-color: #ffa726;
+    border: none;
+    color: white;
+}
+
+.modal-regis .tab-content {
+    display: none;
+}
+
+.modal-regis .tab-content.active {
+    display: block;
+}
+
+.modal-regis .user-info-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid #ffd8a8;
+    background: linear-gradient(to right, #fffcf5, #fff5eb);
+    border-radius: 20px;
+    border: 2px solid var(--gradient-2, #eb2805);
+    background: #fff;
+    box-shadow: 0px 7px 35px 0px rgba(0, 0, 0, 0.15);
+}
+
+.user-info-container h6 {
+    font-size: 20px;
+    color: #333;
+}
+
+.modal-regis .user-info-container a {
+    color: #fa8128;
+    text-decoration: none;
+}
+
+.modal-regis .success-container {
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 15px;
+    text-align: center;
+    /* background: linear-gradient(to right, #fffaf0, #fff5eb);
+                   */
+}
+
+.modal-regis .success-icon {
+    width: 65px;
+    height: 65px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+    color: white;
+    font-size: 40px;
+}
+
+.modal-regis .success-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.modal-regis .success-text {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.modal-regis .start-course-btn {
+    background: linear-gradient(to right, #ff8a00, #ff5722);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(255, 138, 0, 0.2);
+    width: 240px;
+}
+
+.modal-regis .contact-text {
+    color: #666;
+    margin-top: 20px;
+}
+
+.modal-regis .hotline {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+.modal-regis .coupon-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.modal-regis .coupon-btn {
+    background-color: white;
+    border: 1px dashed #ff5722;
+    border-radius: 30px;
+    padding: 6px 15px;
+    color: #ff5722;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.modal-regis .coupon-btn:hover {
+    background-color: #fff5f0;
+    transform: translateY(-2px);
+}
+
+.modal-regis .coupon-tag {
+    font-size: 10px;
+    color: white;
+    background-color: #ff5722;
+    padding: 2px 4px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.tab-switch-auth {
+    border: none !important;
+}
+
+@media (max-width: 769px) {
+    * {
+    }
+
+    .modal-auth .modal-body {
+        padding: 20px 15px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    * {
+    }
+
+    .col-password {
+        flex-wrap: wrap;
+    }
+
+    .modal-auth .form-wrap {
+        width: 100% !important;
+    }
+
+    .modal-auth .modal-header {
+        font-size: 13px;
+    }
+
+    .modal-auth .modal-title {
+        font-size: 18px;
+    }
+
+    .modal-auth .tab-content {
+        padding: 20px 15px;
+    }
+
+    .modal-auth .tab {
+        height: 51px;
+    }
+
+    .modal-auth .tab-switch-auth span {
+        font-size: 16px;
+    }
+    .modal-auth .btn-title {
+        font-size: 14px;
+    }
+
+    .modal-auth .signup-btn {
+        padding: 10px 6px !important;
+    }
+
+    .modal-auth .signup-btn img {
+        width: 40px !important;
+        height: auto !important;
+    }
+
+    .modal-auth .form-wrap {
+        margin-bottom: 18px !important;
+        font-size: 14px;
+    }
+
+    .modal-auth .form-wrap * {
+        font-size: 14px;
+    }
+
+    .modal-auth .form-control {
+        padding: 10px;
+        height: 39px;
+    }
+}
